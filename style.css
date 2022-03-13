@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: 600px;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 2px 20px;
+    align-items: center;
+    margin: 0 10em;
+    margin-bottom: 70px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+#darkblue {
+    background-color: #1F2937 ;
+    height: 500px;
+}
+
+.darkbox {
+    color:#f9faf8;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    font-size: 14px;
+
+}
+
+#image {
+    width: 500px;
+    height: 250px;
+    background-color: rgba(56, 49, 42, 0.651);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
