@@ -23,18 +23,32 @@ ul {
 
 #darkblue {
     background-color: #1F2937 ;
-    height: 500px;
+    height: 600px;
 }
 
 .darkbox {
     color:#f9faf8;
-    height: 350px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 120px;
-    font-size: 14px;
+    gap: 450px;
+    font-size: 18px;
+}
 
+.darkbox p {
+    margin-top: -30px;
+    max-width: 400px;
+}
+
+.darkbox div > button {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
 }
 
 #image {
@@ -44,4 +58,81 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.whitebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: auto;
+    justify-content: center;
+    column-gap: 90px;
+    margin-bottom: 80px;
+}
+
+.whitebox h2 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.whitebox .box {
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 140px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    flex-basis: 100%;
+    align-self: center;
+}
+
+.quote h3 {
+    font-size: 24px;
+    align-self: center;
+    margin-right: -510px;
+}
+
+.otherwhitebox {
+    padding: 170px;
+}
+.bluebox {
+    border-radius: 12px;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 20px 80px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px;
+    font-size: 24px;
+    color: #f9faf8;
 }
